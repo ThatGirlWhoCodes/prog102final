@@ -14,12 +14,17 @@ h1{
     padding: 1rem;
 }
 
+p{
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(31, 148, 23);
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1rem;
+}
+
 a{
     padding: 1rem;
     position: absolute;
     bottom: 0;
     text-decoration: none;
 }
-
-
-
