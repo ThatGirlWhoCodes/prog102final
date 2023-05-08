@@ -45,7 +45,7 @@ a:hover{
     color: white;
     border-radius: 100px;
 
-    transform: rotate(360deg) scale (2);
+    /* transform: rotate(360deg) scale (2); */
 }
 .slogan{
     font-size: 2rem;

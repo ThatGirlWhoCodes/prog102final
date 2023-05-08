@@ -1,3 +1,5 @@
+// <!-- Help with ALL To Do List Code from @johnPaulFitch -->
+
 var enterButton = document.getElementById("enter");
 var input = document.getElementById("userInput");
 var ul = document.querySelector("ul");
