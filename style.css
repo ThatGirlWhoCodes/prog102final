@@ -5,7 +5,10 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    background-color: lightgrey;
+}
+
+html{
+    /* background-color: lightgrey; */
 }
 
 h1{
@@ -58,7 +61,8 @@ a:hover{
   .ad {
     width: 300px;
     height: 150px;
-    background-color: grey;
+    background-color: rgb(103, 243, 142);
+    border:rgb(31, 148, 23);
     border-radius: 10px;
     text-align: center;
 
@@ -72,7 +76,7 @@ a:hover{
   
   .ad h2{
     font-size: 1.5rem;
-    /* margin-bottom: 1rem; */
+    margin-bottom: 1rem;
   }
    
   @keyframes pulse {
@@ -97,6 +101,15 @@ p{
     display:flex;
     justify-content: center;
     align-items: center;
+}
+
+footer{
+    width: 100%;
+    padding: 20px;  
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
 
 
