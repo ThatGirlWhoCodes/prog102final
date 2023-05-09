@@ -6,7 +6,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* h1{
+h1{
     font-family: 'Bebas Neue', cursive;
     font-size: 4rem;
     color: rgb(31, 148, 23);
@@ -22,65 +22,64 @@ h2{
     
     text-align: center;
     padding: 10px;
-} */
+}
 
 body, html {
-    overflow-x: hidden;
-  }
-  
-  body {
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-    height: 100vh;
-    background: #ffffff;
-    justify-content: center;
-    align-items: center;
-   
-  }
-  
-  .container {
-    width: 50%;
-    height: 50%;
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .question {
-    font-size: 2rem;
-    font-weight: bold;
-    color: white;
-    border-bottom: 1px solid white;
-  }
-  
-  .answer input {
-    background: #0c9e5c;
-    border: none;
-    outline: none;
-    font-size: 2rem;
-    padding: 0.5em;
-    color: white;
-    margin-top: 2em;
-    border-radius: 0.5em;
-  }
-  
-  .answer input::placeholder {
-    color: white;
-    opacity: .2;
-  }
-  
-  #next {
-    font-size: 1.25rem;
-    border: none;
-    outline: none;
-    padding: 0.5em;
-    border-radius: 0.5em;
-    margin: 0.5em;
-    cursor: pointer;
-  }
+  overflow-x: hidden;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background: #140f42;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.container {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.question {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.answer input {
+  background: #7e75d1;
+  border: none;
+  outline: none;
+  font-size: 2rem;
+  padding: 0.5em;
+  color: white;
+  margin-top: 2em;
+  border-radius: 0.5em;
+}
+
+.answer input::placeholder {
+  color: white;
+  opacity: .2;
+}
+
+#next {
+  font-size: 1.25rem;
+  border: none;
+  outline: none;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  margin: 0.5em;
+  cursor: pointer;
+}
 
 footer{
 width: 100%;
