@@ -1,3 +1,5 @@
+/*help with code from @sujeet on codepen */
+
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
@@ -15,17 +17,18 @@
     padding: 10px;
 } */
 
-body {
-	background: #b7b7b7 none repeat scroll 0 0;
-	font-family: 'Open Sans',sans-serif;}
+html{
+    background: #098f24 ;    
+}
 
 .layout {
     margin: 0 auto;	
     max-width: 1170px;	
     width: 100%;
     padding: 0 15px;
+    
 }
-/********Grid Widht *******/
+/********Grid Width *******/
 
 .form-group{ 
     float:left;    
@@ -150,6 +153,7 @@ input {
 }
 a{
     text-decoration: none;
+    color: white;
 }
 footer{
     width: 100%;
